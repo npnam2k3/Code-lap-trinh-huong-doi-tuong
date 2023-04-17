@@ -1,0 +1,4 @@
+Cac so duong la: 
+6  5  2  1  7  
+Cac so am la: 
+-4  -9  -3  

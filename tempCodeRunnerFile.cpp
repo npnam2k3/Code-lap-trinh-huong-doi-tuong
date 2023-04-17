@@ -1,0 +1,1 @@
+cout<<"Gia tri cua xau nhi phan "<<binary<<" la: "<<BintoDec(binary);
