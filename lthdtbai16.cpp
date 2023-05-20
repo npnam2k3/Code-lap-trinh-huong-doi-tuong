@@ -20,7 +20,7 @@ class Hinhtron
 };
 int main()
 {
-    ifstream fin("Hinhtron.txt");
+    ifstream fin("hinhtron.txt");
     float tongCV=0, tongDT=0, r;
     int demMau[4]={0}, kt=0;
     char tenMau[4][7] = {"Xanh", "Do", "Tim", "Vang"}, mauNen[7];
@@ -40,7 +40,8 @@ int main()
 
         //dem so luong mau cua n hinh tron
         kt=hinhTron[i].layMaMau();
-        demMau[kt]++;
+        if(kt>0 && kt<=4)
+            demMau[kt-1]++;
     }
     cout<<"\nTong chu vi cua "<<n<<" hinh tron la: "<<tongCV;
     cout<<"\nTong dien tich cua "<<n<<" hinh tron la: "<<tongDT;
@@ -87,4 +88,5 @@ int Hinhtron::layMaMau()
     if(strcasecmp(mauNen, "Do")==0) return 2;
     if(strcasecmp(mauNen, "Tim")==0) return 3;
     if(strcasecmp(mauNen, "Vang")==0) return 4;
+    return -1;
 }
