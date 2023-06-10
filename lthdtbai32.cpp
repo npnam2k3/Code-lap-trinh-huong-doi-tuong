@@ -103,7 +103,7 @@ bool SList::Search(int x)
     while(P)
     {
         if(P->infor == x)   return true;
-        else
+        else 
         {
             P=P->link;
         }

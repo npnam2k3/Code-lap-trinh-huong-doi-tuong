@@ -1,0 +1,5 @@
+4
+2   Xanh
+5   Do
+9   Vang
+1   Tim
