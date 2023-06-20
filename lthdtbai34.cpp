@@ -40,11 +40,11 @@ int main()
     }
 
     Dl.display();
-    // cout<<"\nNhap vao gia tri can bo sung: ";
-    // cin>>x;
-    // Dl.headInsert(x);
-    // cout<<"\nDanh sach sau khi bo sung la: \n";
-    // Dl.display();
+    cout<<"\nNhap vao gia tri can bo sung: ";
+    cin>>x;
+    Dl.headInsert(x);
+    cout<<"\nDanh sach sau khi bo sung la: \n";
+    Dl.display();
     cout << "\nNhap vao gia tri can tim: ";
     cin >> x;
     if (Dl.search(x))
